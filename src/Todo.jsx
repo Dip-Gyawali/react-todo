@@ -22,7 +22,7 @@ function Todo(){
           return index!==key;
        })
        let updatedColors = colors.filter((_, index) =>{
-         index !== key
+         return index !== key
        })
        setTaskList(updated);
        setColors(updatedColors);
