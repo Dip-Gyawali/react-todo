@@ -1,0 +1,80 @@
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.main{
+   height: auto;
+   width: auto;
+   border: 2px solid #001aff;
+   background-color: lightslategray;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px #001aff;
+   padding: 20px;
+}
+.main h1{
+  font-size: 4vw;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom,rgb(255, 8, 0),rgb(0, 38, 253));
+ -webkit-text-fill-color:transparent;
+ -webkit-background-clip: text;
+}
+.content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.todo-data{
+  font-size: 1vw;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 80%;
+}
+.btn{
+  border-radius: 20px;
+  border: none;
+  font-size: 1vw;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(58, 58, 223);
+}
+.main ul{
+  padding: 0;
+}
+.main ul li{
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+  background-color: rgb(75, 73, 73);
+  color: white;
+}
+.action-btn{
+  display: flex;
+  gap: 10px;
+}
+.btn-done{
+  border-radius: 10px;
+  border: none;
+  font-size: 1vw;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(5, 235, 24);
+}
+.btn-delete{
+  border-radius: 10px;
+  border: none;
+  font-size: 1vw;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(235, 39, 5);
+}
